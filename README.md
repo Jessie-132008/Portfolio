@@ -1,5 +1,5 @@
 # Ex01 Portfolio
-## Date: 31/10/2026
+## Date: 02/11/2026
 
 ```
 Name :  JESSIE J
@@ -60,43 +60,80 @@ about.html
 <html>
 <head>
     <title>About Me</title>
-    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<div class="nav">
-    <a href="port.html">Home</a>
-    <a href="about.html" class="active">About</a>
-    <a href="skills.html">Skills</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-</div>
+<body bgcolor="#FFF8E7" text="#2B171B">
 
-<div class="page">
-    <h1>About Me</h1>
+    <center>
+        <h1><font color="#800020">ABOUT ME</font></h1>
+        <p><i>Get to know me better</i></p>
 
-    <p class="lead">
-        Computer Science Engineering Student
+        <hr color="#800020">
+
+        <form>
+            <button formaction="index.html">Home</button>
+            <button formaction="about.html">About Me</button>
+            <button formaction="skills.html">My Skills</button>
+            <button formaction="projects.html">My Projects</button>
+            <button formaction="contact.html">Contact</button>
+        </form>
+
+        <br>
+
+        <img src="formal pic.jpg" alt="My Photo" width="160" height="180">
+    </center>
+
+    <h2><font color="#800020">Who Am I?</font></h2>
+
+    <p>
+        Hello! I am Jessie J, a Computer Science Engineering student
+        at Saveetha Engineering College.
     </p>
 
     <p>
-        I am Jessie J, a Computer Science and Engineering
-        student at Saveetha Engineering College.
+        I am interested in programming, web development, and learning
+        new technologies. I enjoy exploring new concepts and improving
+        my technical skills through practice and projects.
     </p>
 
-    <p>
-        I enjoy learning programming languages,
-        developing websites, and solving problems
-        using technology.
-    </p>
+    <h2><font color="#800020">Education</font></h2>
 
-    <p>
-        My goal is to improve my technical skills
-        and become a skilled software developer.
-    </p>
+    <table border="1" cellpadding="10" cellspacing="0" width="100%">
+        <tr bgcolor="#800020">
+            <th><font color="#FFF8E7">Details</font></th>
+            <th><font color="#FFF8E7">Information</font></th>
+        </tr>
 
-    <a href="port.html" class="btn">Back to Home</a>
-</div>
+        <tr>
+            <td>College</td>
+            <td>Saveetha Engineering College</td>
+        </tr>
+
+        <tr>
+            <td>Department</td>
+            <td>Computer Science and Engineering</td>
+        </tr>
+
+        <tr>
+            <td>Year</td>
+            <td>Second Year</td>
+        </tr>
+    </table>
+
+    <h2><font color="#800020">My Interests</font></h2>
+
+    <ul>
+        <li>Programming</li>
+        <li>Web Development</li>
+        <li>Technology and Innovation</li>
+        <li>Learning new skills</li>
+        <li>Working on team projects</li>
+    </ul>
+
+    <center>
+        <hr color="#800020">
+        <p><font color="#800020">© 2026 Jessie J</font></p>
+    </center>
 
 </body>
 </html>
@@ -108,75 +145,139 @@ contact.html
 <html>
 <head>
     <title>Contact Me</title>
-    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<div class="nav">
-    <a href="port.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="skills.html">Skills</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html" class="active">Contact</a>
-</div>
+<body bgcolor="#FFF8E7" text="#2B171B">
 
-<div class="page">
-    <h1>Contact Me</h1>
+    <center>
+        <h1><font color="#800020">LET'S CONNECT</font></h1>
+        <p><i>Have a question or want to get in touch?</i></p>
 
-    <p>Email: jessiejohnson132008@gmail.com</p>
-    <p>Phone: 9840506502</p>
+        <hr color="#800020">
 
-    <p>
-        LinkedIn:
-        <a href="https://www.linkedin.com/"
-           target="_blank">
-            https://www.linkedin.com/in/jessie-j-25108637a
-        </a>
-    </p>
+        <form>
+            <button formaction="index.html">Home</button>
+            <button formaction="about.html">About Me</button>
+            <button formaction="skills.html">My Skills</button>
+            <button formaction="projects.html">My Projects</button>
+            <button formaction="contact.html">Contact</button>
+        </form>
 
-    <p>
-        GitHub:
-        <a href="https://github.com/"
-           target="_blank">
-            https://github.com/Jessie-132008
-        </a>
-    </p>
-</div>
+        <h2><font color="#800020">Get In Touch</font></h2>
+
+        <table border="1" cellpadding="18" cellspacing="10" width="85%">
+
+            <tr>
+                <td align="center">
+                    <h2><font color="#800020">Email</font></h2>
+                    <p>Feel free to send me an email.</p>
+                    <a href="mailto:your-email@example.com">
+                        Send Me an Email
+                    </a>
+                </td>
+
+                <td align="center">
+                    <h2><font color="#800020">LinkedIn</font></h2>
+                    <p>Connect with me professionally.</p>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        Visit LinkedIn
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <h2><font color="#800020">GitHub</font></h2>
+                    <p>Explore my coding projects.</p>
+                    <a href="https://github.com/" target="_blank">
+                        Visit GitHub
+                    </a>
+                </td>
+
+                <td align="center">
+                    <h2><font color="#800020">College</font></h2>
+                    <p>Saveetha Engineering College</p>
+                    <p>Computer Science and Engineering</p>
+                </td>
+            </tr>
+
+        </table>
+
+        <h2><font color="#800020">Thank You for Visiting!</font></h2>
+        <p>I look forward to connecting and learning together.</p>
+    </center>
+
+    <hr color="#800020">
+
+    <center>
+        <p><font color="#800020">© 2026 Jessie J | Contact Page</font></p>
+    </center>
 
 </body>
 </html>
+
 ```
 
-port.html
+index.html
 ```
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Jessie | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
 </head>
-<body>
 
-<div class="nav">
-    <a href="port.html" class="active">Home</a>
-    <a href="about.html">About</a>
-    <a href="skills.html">Skills</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-</div>
+<body bgcolor="#FFF8E7" text="#2B171B">
 
-<div class="home">
-    <h1>Hello, I'm Jessie J</h1>
-    <p>Computer Science Engineering Student</p>
-    <p>
-        I am passionate about programming,
-        web development, and learning new technologies.
-    </p>
-    <a href="about.html" class="btn">Know More About Me</a>
-</div>
+    <center>
+        <font color="#800020">
+            <h1>MY PORTFOLIO</h1>
+        </font>
+
+        <h3>Welcome to My Personal Website</h3>
+
+       <img src="formal pic.jpg"
+     alt="Jessie's Profile Photo"
+     width="180"
+     height="180"
+     style="border-radius:50%; border:5px solid #800020;">
+        <h2><font color="#800020">Hello, I'm Jessie J</font></h2>
+        <h3>Computer Science Engineering Student</h3>
+        <p>Welcome to my personal portfolio!</p>
+
+        <hr color="#800020">
+
+        <h2><font color="#800020">Explore My Portfolio</font></h2>
+
+        <form>
+            <button formaction="index.html">Home</button>
+            <button formaction="about.html">About Me</button>
+            <button formaction="skills.html">My Skills</button>
+            <button formaction="projects.html">My Projects</button>
+            <button formaction="contact.html">Contact</button>
+        </form>
+
+        <hr color="#800020">
+
+        <h2><font color="#800020">A Little About Me</font></h2>
+        <p>
+            I am a Computer Science Engineering student who enjoys
+            programming, learning new technologies, and creating projects.
+        </p>
+
+        <p>
+            <font color="#800020">
+                <b>Learn • Create • Grow</b>
+            </font>
+        </p>
+
+        <hr color="#800020">
+
+        <p><font color="#800020">© 2026 Jessie J | My Portfolio</font></p>
+    </center>
 
 </body>
 </html>
+
 ```
 
 projects.html
@@ -185,53 +286,84 @@ projects.html
 <html>
 <head>
     <title>My Projects</title>
-    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<div class="nav">
-    <a href="port.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="skills.html">Skills</a>
-    <a href="projects.html" class="active">Projects</a>
-    <a href="contact.html">Contact</a>
-</div>
+<body bgcolor="#FFF8E7" text="#2B171B">
 
-<div class="page">
-    <h1>My Projects</h1>
+    <center>
+        <h1><font color="#800020">MY PROJECTS</font></h1>
+        <p><i>Things I have created and explored</i></p>
 
-    <div class="projects-container">
+        <hr color="#800020">
 
-        <div class="project">
-            <h3>Personal Portfolio</h3>
-            <p>
-                A personal website created using HTML
-                and CSS to display my profile and skills.
-            </p>
-        </div>
+        <form>
+            <button formaction="index.html">Home</button>
+            <button formaction="about.html">About Me</button>
+            <button formaction="skills.html">My Skills</button>
+            <button formaction="projects.html">My Projects</button>
+            <button formaction="contact.html">Contact</button>
+        </form>
 
-        <div class="project">
-            <h3>Smart Disaster Response System</h3>
-            <p>
-                An academic project designed to coordinate
-                disaster incidents, rescue teams, resources,
-                and emergency missions.
-            </p>
-        </div>
+        <h2><font color="#800020">Explore My Work</font></h2>
 
-        <div class="project">
-            <h3>Image to PDF Converter</h3>
-            <p>
-                A simple application idea for converting
-                images into a PDF document.
-            </p>
-        </div>
+        <table border="1" cellpadding="15" cellspacing="10" width="90%">
 
-    </div>
-</div>
+            <tr>
+                <td align="center">
+                    <h2><font color="#800020">Personal Portfolio</font></h2>
+                    <p>A personal website created using HTML.</p>
+                    <p>Displays my profile, skills, projects, and contact details.</p>
+
+                    <form action="index.html">
+                        <button type="submit">View Project</button>
+                    </form>
+                </td>
+
+                <td align="center">
+                    <h2><font color="#800020">Smart Disaster Response System</font></h2>
+                    <p>A college project for emergency response coordination.</p>
+                    <p>Helps manage incidents, rescue teams, resources, and missions.</p>
+
+                    <form action="about.html">
+                        <button type="submit">Project Overview</button>
+                    </form>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <h2><font color="#800020">HTML Practice</font></h2>
+                    <p>Simple webpages created while learning HTML.</p>
+                    <p>Includes headings, tables, images, and hyperlinks.</p>
+
+                    <form action="skills.html">
+                        <button type="submit">View Skills</button>
+                    </form>
+                </td>
+
+                <td align="center">
+                    <h2><font color="#800020">Learning Journey</font></h2>
+                    <p>Exploring programming and web development.</p>
+                    <p>Practicing concepts through small tasks.</p>
+
+                    <form action="about.html">
+                        <button type="submit">About Me</button>
+                    </form>
+                </td>
+            </tr>
+
+        </table>
+    </center>
+
+    <hr color="#800020">
+
+    <center>
+        <p><font color="#800020">© 2026 Jessie J</font></p>
+    </center>
 
 </body>
 </html>
+
 ```
 
 skills.html
@@ -240,263 +372,131 @@ skills.html
 <html>
 <head>
     <title>My Skills</title>
-    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<div class="nav">
-    <a href="port.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="skills.html" class="active">Skills</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact</a>
-</div>
+<body bgcolor="#FFF8E7" text="#2B171B">
 
-<div class="page">
-    <h1>My Skills</h1>
+    <center>
+        <h1><font color="#800020">MY SKILL SHOWCASE</font></h1>
+        <p><i>What I know and what I am learning</i></p>
 
-    <div class="skills-container">
-        <div class="skill">C Programming</div>
-        <div class="skill">Python</div>
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">Java</div>
-        <div class="skill">Problem Solving</div>
-        <div class="skill">MS Office</div>
-    </div>
-</div>
+        <hr color="#800020">
+
+        <form>
+            <button formaction="index.html">Home</button>
+            <button formaction="about.html">About Me</button>
+            <button formaction="skills.html">My Skills</button>
+            <button formaction="projects.html">My Projects</button>
+            <button formaction="contact.html">Contact</button>
+        </form>
+    </center>
+
+    <center>
+        <h2><font color="#800020">Programming Skills</font></h2>
+
+        <table border="1" cellpadding="12" cellspacing="0" width="85%">
+            <tr bgcolor="#800020">
+                <th><font color="#FFF8E7">Skill</font></th>
+                <th><font color="#FFF8E7">Level</font></th>
+                <th><font color="#FFF8E7">My Progress</font></th>
+            </tr>
+
+            <tr>
+                <td>C Programming</td>
+                <td>Beginner</td>
+                <td>Learning programming fundamentals</td>
+            </tr>
+
+            <tr>
+                <td>Python</td>
+                <td>Beginner</td>
+                <td>Practicing basic programs</td>
+            </tr>
+
+            <tr>
+                <td>HTML</td>
+                <td>Beginner</td>
+                <td>Creating webpages</td>
+            </tr>
+        </table>
+
+        <h2><font color="#800020">Other Skills</font></h2>
+
+        <table border="1" cellpadding="12" cellspacing="0" width="85%">
+            <tr bgcolor="#800020">
+                <th><font color="#FFF8E7">Skill</font></th>
+                <th><font color="#FFF8E7">How I Use It</font></th>
+            </tr>
+
+            <tr>
+                <td>Problem Solving</td>
+                <td>Breaking problems into simple steps</td>
+            </tr>
+
+            <tr>
+                <td>MS Office</td>
+                <td>Creating documents and presentations</td>
+            </tr>
+
+            <tr>
+                <td>Communication</td>
+                <td>Sharing ideas clearly</td>
+            </tr>
+
+            <tr>
+                <td>Teamwork</td>
+                <td>Working together on group tasks</td>
+            </tr>
+        </table>
+
+        <h2><font color="#800020">Currently Exploring</font></h2>
+
+        <table border="1" cellpadding="12" cellspacing="0" width="85%">
+            <tr>
+                <td>Web Development</td>
+                <td>Building webpages and portfolio projects</td>
+            </tr>
+
+            <tr>
+                <td>Java</td>
+                <td>Improving programming knowledge</td>
+            </tr>
+
+            <tr>
+                <td>Database Concepts</td>
+                <td>Learning how data is stored and managed</td>
+            </tr>
+        </table>
+
+        <h3><font color="#800020">
+            My Goal: Keep learning, practicing, and growing!
+        </font></h3>
+    </center>
+
+    <hr color="#800020">
+
+    <center>
+        <p><font color="#800020">© 2026 Jessie J</font></p>
+    </center>
 
 </body>
 </html>
-```
-
-style.css
-```
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: "Segoe UI", Arial, sans-serif;
-    background: #080B12;
-    color: #CBD5E1;
-}
-
-/* Navigation Bar */
-.nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    padding: 20px;
-    background: #080B12;
-    border-bottom: 1px solid #1E293B;
-}
-
-.nav a {
-    color: #CBD5E1;
-    text-decoration: none;
-    padding: 10px 18px;
-    border-radius: 6px;
-    font-weight: 600;
-    transition: 0.3s;
-}
-
-.nav a:hover,
-.nav a.active {
-    background: #0B1F3A;
-    color: #60A5FA;
-}
-
-/* Home Page */
-.home {
-    text-align: center;
-    padding: 130px 20px;
-    margin: 25px;
-    border-radius: 15px;
-    background: linear-gradient(
-        135deg,
-        #080B12,
-        #0B1F3A
-    );
-    border: 1px solid #1E3A5F;
-}
-
-.home h1 {
-    font-size: 48px;
-    color: #FFFFFF;
-    margin-bottom: 15px;
-}
-
-.home p {
-    font-size: 18px;
-    line-height: 1.8;
-    color: #CBD5E1;
-}
-
-/* Common Page Sections */
-.page {
-    max-width: 950px;
-    margin: 45px auto;
-    padding: 40px;
-    background: #0D1421;
-    border: 1px solid #1E293B;
-    border-radius: 12px;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
-    animation: fadeIn 0.5s ease;
-}
-
-.page h1 {
-    color: #FFFFFF;
-    font-size: 32px;
-    border-bottom: 3px solid #3B82F6;
-    display: inline-block;
-    padding-bottom: 8px;
-}
-
-.page h2 {
-    color: #E2E8F0;
-}
-
-.page p {
-    line-height: 1.8;
-}
-
-/* Buttons */
-.btn {
-    display: inline-block;
-    margin: 10px 8px 10px 0;
-    padding: 12px 22px;
-    background: #0B1F3A;
-    color: #FFFFFF;
-    text-decoration: none;
-    border: 1px solid #3B82F6;
-    border-radius: 6px;
-    font-weight: 600;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    background: #2563EB;
-    transform: translateY(-2px);
-}
-
-/* Contact Links */
-.page a:not(.btn) {
-    color: #60A5FA;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.page a:not(.btn):hover {
-    color: #FFFFFF;
-    text-decoration: underline;
-}
-
-/* Skills */
-.skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 25px;
-}
-
-.skill {
-    padding: 12px 20px;
-    background: #0B1F3A;
-    color: #DBEAFE;
-    border: 1px solid #1E3A5F;
-    border-radius: 6px;
-    font-weight: 600;
-    transition: 0.3s;
-}
-
-.skill:hover {
-    background: #1E3A5F;
-    transform: translateY(-3px);
-}
-
-/* Projects */
-.projects-container {
-    display: grid;
-    grid-template-columns: repeat(
-        auto-fit,
-        minmax(230px, 1fr)
-    );
-    gap: 25px;
-    margin-top: 30px;
-}
-
-.project {
-    padding: 25px;
-    background: #080B12;
-    border: 1px solid #1E293B;
-    border-left: 4px solid #3B82F6;
-    border-radius: 8px;
-    transition: 0.3s;
-}
-
-.project:hover {
-    transform: translateY(-5px);
-    border-color: #3B82F6;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-}
-
-.project h3 {
-    color: #FFFFFF;
-}
-
-.project p {
-    line-height: 1.7;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-    .home {
-        margin: 15px;
-        padding: 70px 15px;
-    }
-
-    .home h1 {
-        font-size: 32px;
-    }
-
-    .page {
-        margin: 20px;
-        padding: 25px;
-    }
-
-    .nav {
-        gap: 6px;
-    }
-
-    .nav a {
-        padding: 8px 12px;
-    }
-}
-
-/* Animation */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(12px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
 ```
+
+
+
 
 ## OUTPUT
-<img width="1907" height="992" alt="image" src="https://github.com/user-attachments/assets/e2dd3597-f12b-4e67-a0b5-9f929a95cca4" />
-<img width="1910" height="962" alt="image" src="https://github.com/user-attachments/assets/cb500c69-9c4b-4b12-a12e-a4be0c9a16a7" />
-<img width="1917" height="976" alt="image" src="https://github.com/user-attachments/assets/3dc6d7d2-aac6-46d0-9ee5-98576297c3f8" />
-<img width="1905" height="956" alt="image" src="https://github.com/user-attachments/assets/f4ed65bd-28ae-4a8a-93ff-fe60a6038953" />
-<img width="1907" height="955" alt="image" src="https://github.com/user-attachments/assets/7aa69a5f-7eac-4f31-9606-3352562e7c3c" />
+
+<img width="1883" height="922" alt="image" src="https://github.com/user-attachments/assets/24f5f5ff-6f54-45fe-b3bf-f3c938039e67" />
+<img width="1852" height="867" alt="image" src="https://github.com/user-attachments/assets/4511a725-462b-4008-b354-347ff03d173c" />
+<img width="1810" height="900" alt="image" src="https://github.com/user-attachments/assets/c01333fa-0d7c-4431-a97e-036e22096d91" />
+<img width="1891" height="847" alt="image" src="https://github.com/user-attachments/assets/15e71e03-b3e3-4e8b-a1e1-463f9bb908e9" />
+<img width="1878" height="893" alt="image" src="https://github.com/user-attachments/assets/d92bb9fa-e0e8-46dc-9ab8-a93b33e66127" />
+
+
+
 
 
 ## RESULT
